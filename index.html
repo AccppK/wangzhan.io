@@ -1,68 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-        }
- 
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #f2f2f2;
-        }
- 
-        section {
-            margin-top: 20px;
-        }
- 
-        h2 {
-            color: #333;
-        }
- 
-        p {
-            line-height: 1.6;
-            color: #666;
-        }
- 
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
- 
-    <header>
-        <h1>欢迎来到我的个人网站！</h1>
-        <p>这里记录了我的一些个人信息和兴趣爱好。</p>
-    </header>
- 
-    <section>
-        <h2>关于我</h2>
-        <p>我是一个热爱编程和设计的人，喜欢探索新技术和创造有趣的项目。</p>
-    </section>
- 
-    <section>
-        <h2>我的兴趣</h2>
-        <p>我喜欢编程、读书、旅行和摄影。在空闲时间，我喜欢学习新的技能和玩音乐乐器。</p>
-    </section>
- 
-    <section>
-        <h2>联系方式</h2>
-        <p>你可以通过电子邮件联系我：myemail@example.com</p>
-    </section>
- 
-    <footer>
-        <p>&copy; 2024 我的个人网站</p>
-    </footer>
- 
-</body>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>我的个人主页</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+            background-color: #f4f4f4;  
+        }  
+  
+        header, footer {  
+            background-color: #333;  
+            color: #fff;  
+            text-align: center;  
+            padding: 1em 0;  
+        }  
+  
+        .container {  
+            width: 80%;  
+            margin: 0 auto;  
+            overflow: hidden;  
+        }  
+  
+        .about-me, .portfolio {  
+            background-color: #fff;  
+            padding: 20px;  
+            margin-top: 20px;  
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+        }  
+  
+        .portfolio img {  
+            width: 100%;  
+            height: auto;  
+            display: block;  
+            margin-bottom: 10px;  
+        }  
+  
+        footer {  
+            margin-top: 20px;  
+        }  
+    </style>  
+</head>  
+<body>  
+  
+<header>  
+    <div class="container">  
+        <h1>我的个人主页</h1>  
+    </div>  
+</header>  
+  
+<div class="container">  
+    <section class="about-me">  
+        <h2>关于我</h2>  
+        <p>我是一名前端开发者，热爱编码和设计。我擅长使用HTML, CSS, JavaScript等技术来创建响应式和用户友好的网站。</p>  
+    </section>  
+  
+    <section class="portfolio">  
+        <h2>作品集</h2>  
+        <div>  
+            <img src="project1.jpg" alt="项目1">  
+            <p>项目1描述...</p>  
+        </div>  
+        <div>  
+            <img src="project2.jpg" alt="项目2">  
+            <p>项目2描述...</p>  
+        </div>  
+    </section>  
+</div>  
+  
+<footer>  
+    <div class="container">  
+        <p>版权所有 &copy; 2023 我的名字</p>  
+    </div>  
+</footer>  
+  
+</body>  
 </html>
